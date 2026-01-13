@@ -1,0 +1,8 @@
+vpc_name              = "rahul-vpc"
+cidr_block            = "10.0.0.0/16"
+cidr_public           = "10.0.1.0/24"
+cidr_private          = "10.0.2.0/24"
+internet_gateway_name = "rahul-igw"
+route_table_name      = "rahul-public-rt"
+public_subnet_name    = "rahul-public-subnet"
+private_subnet_name   = "rahul-private-subnet"
